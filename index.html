@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Home - Sarah Widiya</title>
+  <style>
+    .hero {
+      background-color: #191919;
+      color: white;
+      padding: 10rem 9%;
+    }
+
+    .hero-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 5rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-image img {
+      width: 32vw;
+      border-radius: 50%;
+      box-shadow: 0 0 25px #e3651d;
+    }
+
+    .hero-content {
+      flex: 1;
+    }
+
+    .hero-content h1 {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero-content span {
+      color: #e3651d;
+    }
+
+    .hero-content p {
+      font-size: 1.6rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    @media (max-width: 995px) {
+      .hero-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-image img {
+        width: 70vw;
+      }
+
+      .hero-content h1 {
+        font-size: 4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Sarah Widiya</a>
+    <nav>
+      <a href="introduction.html">Introduction</a>
+      <a href="skills.html">Skills</a>
+      <a href="v&m.html">V&M</a>
+      <a href="myproject.html">My Project</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-image">
+        <img src="image/Screenshot 2025-06-15 173957.png" alt="Sarah Widiya" />
+      </div>
+      <div class="hero-content">
+        <h1>Hallo, Saya <span>Sarah Widiya</span></h1>
+        <p>
+          Seorang Desainer UI/UX. Saya memiliki ketertarikan dalam menciptakan antarmuka pengguna yang intuitif dan menarik secara visual. Selamat datang di portofolio saya, tempat saya membagikan proses, pemikiran desain, dan hasil karya terbaik saya.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/sarah-widiya-1a81862b8/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/SarahWidiya"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/SarahWidiya4"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/sarahromanoff_?igsh=MWo3Mnd1aTlmMXFsZA%3D%3D"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <a href="contact.html" class="btn">Contact Me</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
